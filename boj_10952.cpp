@@ -1,3 +1,4 @@
+/*
 // #10952 A+B - 5
 #include <iostream>
 using namespace std;
@@ -20,3 +21,4 @@ int main(){
 	}
 	return 0;
 }
+*/
