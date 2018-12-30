@@ -17,6 +17,7 @@ CPP_SRCS += \
 ../boj_2739.cpp \
 ../boj_2839.cpp \
 ../boj_4344.cpp \
+../boj_9498.cpp \
 ../hello.cpp \
 ../quicksort_by_don.cpp \
 ../별찍기.cpp \
@@ -37,6 +38,7 @@ OBJS += \
 ./boj_2739.o \
 ./boj_2839.o \
 ./boj_4344.o \
+./boj_9498.o \
 ./hello.o \
 ./quicksort_by_don.o \
 ./별찍기.o \
@@ -57,6 +59,7 @@ CPP_DEPS += \
 ./boj_2739.d \
 ./boj_2839.d \
 ./boj_4344.d \
+./boj_9498.d \
 ./hello.d \
 ./quicksort_by_don.d \
 ./별찍기.d \
