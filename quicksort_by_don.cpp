@@ -1,4 +1,5 @@
-// quicksort by donsdev cpp
+/*
+// quickSort by donsdev cpp
 #include <iostream>
 using namespace std;
 
@@ -8,11 +9,11 @@ void swap(int* a, int* b){
 	*b = tmp;
 }
 
-void quicksort(int start, int end, int * arr){
-	if (start < end){
+void quickSort(int start, int end, int* arr){
+	if(start < end){
 		int pivot = start; int i = start + 1; int j = start;
-		for(; i <= end; i++){
-			if(arr[i] < arr[pivot]){
+		for(;i <= end; i++){
+			if(arr[pivot] > arr[i]){
 				j++;
 				swap(&arr[i], &arr[j]);
 			}
@@ -20,14 +21,14 @@ void quicksort(int start, int end, int * arr){
 		swap(&arr[pivot], &arr[j]);
 		pivot = j;
 
-		quicksort(start, pivot-1, arr);
-		quicksort(pivot+1, end, arr);
+		quickSort(start, pivot - 1, arr);
+		quickSort(pivot+1, end, arr);
 	}
 }
 
 int main(){
 	int arr[9] = {3,8,0,1,2,4,3,5,11};
-	quicksort(0,8,arr);
+	quickSort(0,8,arr);
 
 	for(int i=0; i<9; i++){
 		cout << arr[i] << " ";
@@ -35,4 +36,4 @@ int main(){
 
 	return 0;
 }
-
+*/
