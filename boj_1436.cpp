@@ -1,3 +1,4 @@
+/*
 // #1436 영화감독 숌
 #include <iostream>
 using namespace std;
@@ -30,3 +31,4 @@ int main(){
 	cout << result_cache;
 	return 0;
 }
+*/

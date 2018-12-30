@@ -6,6 +6,7 @@
 CPP_SRCS += \
 ../10817.cpp \
 ../boj_1107.cpp \
+../boj_11719.cpp \
 ../boj_1436.cpp \
 ../boj_2839.cpp \
 ../boj_4344.cpp \
@@ -17,6 +18,7 @@ CPP_SRCS += \
 OBJS += \
 ./10817.o \
 ./boj_1107.o \
+./boj_11719.o \
 ./boj_1436.o \
 ./boj_2839.o \
 ./boj_4344.o \
@@ -28,6 +30,7 @@ OBJS += \
 CPP_DEPS += \
 ./10817.d \
 ./boj_1107.d \
+./boj_11719.d \
 ./boj_1436.d \
 ./boj_2839.d \
 ./boj_4344.d \
