@@ -1,3 +1,4 @@
+/*
 // #9498 시험 성적
 #include <iostream>
 using namespace std;
@@ -18,3 +19,4 @@ int main(){
 	}
 	return 0;
 }
+*/
